@@ -3,20 +3,20 @@
 typedef enum {
     ID = 256,
     NUM,
-    IF,    // Adicione palavras-chave como IF, ELSE, etc.
-    ELSE,
-    FOR,
-    WHILE,
-    RETURN,
-    PRINT,
-    CHAR,
-    STR,
-    LEQ,   // "less or equal"
-    GEQ,   // "greater or equal"
-    NEQ,   // "not equal"
-    EQ,    // "equal"
-    AND,   // "and"
-    OR,    // "or"
+    IF,    // Palavra-chave "if"
+    ELSE,  // Palavra-chave "else"
+    FOR,   // Palavra-chave "for"
+    WHILE, // Palavra-chave "while"
+    RETURN,// Palavra-chave "return"
+    PRINT, // Palavra-chave "print"
+    CHAR,  // Literal de caractere
+    STR,   // Literal de string
+    LEQ,   // Menor ou igual
+    GEQ,   // Maior ou igual
+    NEQ,   // Diferente
+    EQ,    // Igual
+    AND,   // E lógico
+    OR,    // Ou lógico
     PLUS,  // "+"
     MINUS, // "-"
     MULT,  // "*"
@@ -36,7 +36,7 @@ typedef enum {
     LBRACE, // "{"
     RBRACE, // "}"
     BSLASH, // "\"
-    CHAR_LITERAL, // 'c'
-    STRING_LITERAL, // "string"
+    CHAR_LITERAL, // Literal de caractere
+    STRING_LITERAL, // Literal de string
     ERROR
 } token_t;
